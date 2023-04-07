@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customers</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<body>
+<form>
+    <input type="text" id="firstName">
+    <input type="text" id="lastName">
+    <input type="submit" value="SAVE" onclick="addNewCustomer()">
+</form>
+<br>
+<br>
+<br>
+<form>
+    <input type="text" id="first-name">
+    <input type="text" id="last-name">
+</form>
+<table border="1px" style="padding: 10px">
+    <tr>
+        <th>first_name</th>
+        <th>last_name</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+    <tbody id="list"></tbody>
+</table>
+</body>
+
+<script src="customer.js"></script>
+</html>
